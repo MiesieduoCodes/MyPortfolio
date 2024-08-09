@@ -1,15 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class', // Enable dark mode via a CSS class
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-        "./node_modules/flowbite/**/*.js"
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: { },
+    extend: {},
   },
-  plugins: [
-    ('flowbite/plugin')
-]
-}
-
+  plugins: [],
+};
